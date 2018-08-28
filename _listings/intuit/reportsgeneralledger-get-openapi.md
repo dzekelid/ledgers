@@ -1,9 +1,14 @@
+---
 swagger: "2.0"
 x-collection-name: Intuit
-x-complete: 1
+x-complete: 0
 info:
-  title: QuickBooks Online V3 API
-  description: the-quickbooks-online-accounting-api-is-a-restful-api-that-is-used-to-access-quickbooks-companies-docs-
+  title: QuickBooks Online V3 API Get Reports General Ledger
+  description: |-
+    Report - General Ledger
+    Method : GET
+
+    Docs - https://developer.intuit.com/docs/api/accounting/general%20ledger
   version: 1.0.0
 host: DefaultParameterValue
 basePath: /v3/company/DefaultParameterValue
@@ -40,3 +45,17 @@ paths:
       - Reports
       - General
       - Ledger
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

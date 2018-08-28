@@ -1,0 +1,71 @@
+{
+	"name": "Streadata.io API Gallery - Ledgers",
+	"description": "This is a repository of ledgers APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/ledgers.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://ledgers.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Intuit",
+			"x-api-slug": "intuit",
+			"description": "See how the power of Intuit Giants can work for you by joining the over 46 million people already using TurboTax, QuickBooks and Mint to power their financial prosperity.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg",
+			"humanURL": "https://intuit.com",
+			"baseURL": "https://DefaultParameterValue//v3/company/DefaultParameterValue",
+			"tags": "Ledgers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ledgers/master/_listings/intuit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Blockchain Workbench",
+			"x-api-slug": "azure-blockchain-workbench",
+			"description": "Azure Blockchain Workbench helps organizations build rich, integrated multi-party blockchain applications quickly and easily. Azure Blockchain Workbench REST API provides developers and information workers a way to integrate to blockchain applications. For example, a developer can use the REST API to enable IoT devices to send data to a blockchain application. Or, an information worker can use the REST API and Power BI to create visualization of blockchain data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-blockchain.png",
+			"humanURL": "https://docs.microsoft.com/en-us/rest/api/azure-blockchain-workbench/",
+			"baseURL": "https:////",
+			"tags": "Ledgers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ledgers/master/_listings/azure-blockchain-workbench/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Ledgers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ledgers/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Ledgers",
+	"include": [
+		{
+			"name": "Intuit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ledgers/master/_listings/intuit/apis.yaml"
+		},
+		{
+			"name": "Azure Blockchain Workbench",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ledgers/master/_listings/azure-blockchain-workbench/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ledgers/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}
